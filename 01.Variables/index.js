@@ -6,3 +6,7 @@ console.log(username);
 
 var firstName$;
 var first1Name;
+
+// will throw an error because normally console is an object of window(window.console.log)
+var console = 'hi'
+console.log("hi");
